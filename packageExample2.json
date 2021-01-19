@@ -1,0 +1,30 @@
+{
+    "name": "vicfeb2020",
+    "version": "1.0.0",
+    "description": "Speech to Text",
+    "main": "app.js",
+    "scripts": {
+      "test": "node app.js",
+      "start": "node app.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "keywords": [
+      "Watson",
+      "IBM",
+      "Speech",
+      "To",
+      "Text",
+      "STT",
+      "Raspberry Pi"
+    ],
+    "author": "Set Pech",
+    "dependencies": {
+      "@ibm-watson/speech-to-text-nodejs": "^2.9.0",
+      "mic": "^2.1.1",
+      "watson-developer-cloud": "^2.42.0"
+    }
+  }
+  
